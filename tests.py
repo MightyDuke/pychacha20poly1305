@@ -1,6 +1,6 @@
 import unittest
 from itertools import chain
-from vault import AeadChaCha20Poly1305, ChaCha20, Poly1305
+from pychacha20poly1305 import AeadChaCha20Poly1305, ChaCha20, Poly1305
 
 # All tests taken from rfc8439
 
